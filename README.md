@@ -30,6 +30,11 @@ Those build types also work with non-makefile generators, e.g. `ninja`:
 
     $ cmake -G Ninja -D CMAKE_BUILD_TYPE=Sanitize ..
 
+## See also
+
+The cmake module for [integrating the Ragel code generator is in another
+repository][4].
+
 ## License
 
 I don't think that those files reach the [threshold of originality][2].
@@ -39,3 +44,4 @@ In any case, they are put into the public domain and licensed under [CC0][3].
 [1]: https://en.wikipedia.org/wiki/CMake
 [2]: https://en.wikipedia.org/wiki/Threshold_of_originality
 [3]: https://en.wikipedia.org/wiki/Creative_Commons_license#Zero_.2F_public_domain
+[4]: https://github.com/gsauthof/cmake-ragel
