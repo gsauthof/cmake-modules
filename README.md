@@ -35,6 +35,10 @@ Those build types also work with non-makefile generators, e.g. `ninja`:
 The cmake module for [integrating the Ragel code generator is in another
 repository][4].
 
+The [cmake-codecov][5] repository provides a cmake module for enabling coverage
+collection and report generation without defining a new build type. Thus, it
+can be orthogonally used with other build types.
+
 ## License
 
 I don't think that those files reach the [threshold of originality][2].
@@ -45,3 +49,4 @@ In any case, they are put into the public domain and licensed under [CC0][3].
 [2]: https://en.wikipedia.org/wiki/Threshold_of_originality
 [3]: https://en.wikipedia.org/wiki/Creative_Commons_license#Zero_.2F_public_domain
 [4]: https://github.com/gsauthof/cmake-ragel
+[5]: https://github.com/RWTH-ELP/CMake-codecov
