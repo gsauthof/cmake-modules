@@ -53,10 +53,9 @@ MARK_AS_ADVANCED(
 
 # Example post-processing with lcov:
 #
-#     lcov --capture --directory ./ --output-file lcov.info
-#     lcov --remove lcov.info 'boost/*' '/c++/*' 'build-cov/*' 'cppformat/*' \
-#        /qt5/*' -o lcov_mod.info
-#     mv lcov_mod.info lcov.info
+#     lcov --capture --directory ./ --output-file lcov_raw.info
+#     lcov --remove lcov_raw.info 'boost/*' '/c++/*' 'build-cov/*' 'cppformat/*' \
+#        '/qt5/*' -o lcov.info
 #     genhtml lcov.info --output-directory pages
 #
 # View e.g. via:
